@@ -1,5 +1,5 @@
 import React from "react";
-import "./Main.css";
+import "./Empty.css";
 
 const Empty = ({ user }) => {
   const { name, profile_pic, status } = user;
