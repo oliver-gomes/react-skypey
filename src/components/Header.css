@@ -5,3 +5,10 @@
 .Header__name {
   color: #fff;
 }
+
+.github {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  color: white;
+}
