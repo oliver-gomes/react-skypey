@@ -11,7 +11,7 @@ const Main = ({ user, activeUserId }) => {
       return <ChatWindow activeUserId={activeUserId} />;
     }
   };
-  return <main className="Main">{renderMainContent} </main>;
+  return <main className="Main">{renderMainContent()}</main>;
 };
 
 export default Main;
